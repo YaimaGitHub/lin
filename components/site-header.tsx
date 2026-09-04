@@ -25,14 +25,14 @@ export function SiteHeader() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-border/60 bg-background/80 backdrop-blur-md">
-      <div className="mx-auto flex h-20 max-w-6xl items-center justify-between px-4 md:px-6">
+      <div className="mx-auto flex h-24 max-w-6xl items-center justify-between px-4 md:px-6">
         <a href="#" className="relative flex items-center gap-2" aria-label="Uplink inicio">
           <Image
             src="/uplink-logo.png"
             alt="Uplink"
             width={260}
             height={70}
-            className="shiny-logo h-11 w-auto sm:h-12 md:h-14 lg:h-16"
+            className="shiny-logo h-14 w-auto sm:h-16 md:h-[4.5rem] lg:h-20"
             priority
           />
           {christmas && (
