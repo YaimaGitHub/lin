@@ -158,14 +158,14 @@ export function WhatsAppLeadDialog({
 
   return (
     <div
-      className="fixed inset-0 z-[100] flex items-end justify-center overflow-y-auto bg-foreground/50 p-4 pb-[calc(1rem+env(safe-area-inset-bottom))] backdrop-blur-sm sm:items-center"
+      className="fixed inset-0 z-[100] flex items-end justify-center overflow-y-auto overscroll-contain bg-foreground/50 p-2 pb-[calc(0.5rem+env(safe-area-inset-bottom))] backdrop-blur-sm sm:items-center sm:p-4 sm:pb-[calc(1rem+env(safe-area-inset-bottom))]"
       role="dialog"
       aria-modal="true"
       aria-labelledby="whatsapp-dialog-title"
       onClick={onClose}
     >
       <div
-        className="relative w-full max-w-md rounded-2xl border border-border bg-card p-6 shadow-2xl md:p-8"
+        className="relative flex max-h-[calc(100dvh-1rem)] w-full max-w-md flex-col overflow-y-auto overscroll-contain rounded-2xl border border-border bg-card p-4 shadow-2xl [scrollbar-gutter:stable] sm:max-h-[calc(100dvh-2rem)] sm:p-6 md:p-8"
         onClick={(e) => e.stopPropagation()}
       >
         <button
@@ -183,7 +183,7 @@ export function WhatsAppLeadDialog({
         </span>
         <h2
           id="whatsapp-dialog-title"
-          className="mt-1 font-display text-2xl font-bold tracking-tight text-foreground"
+          className="mt-1 pr-10 font-display text-xl font-bold tracking-tight text-foreground sm:text-2xl"
         >
           {planName}
           {planPrice ? (
@@ -198,7 +198,7 @@ export function WhatsAppLeadDialog({
           contigo por WhatsApp.
         </p>
 
-        <form onSubmit={handleSubmit} className="mt-6 flex flex-col gap-4">
+        <form onSubmit={handleSubmit} className="mt-5 flex min-w-0 flex-col gap-4 sm:mt-6">
           <div className="flex flex-col gap-1.5">
             <label htmlFor="lead-name" className="text-sm font-medium text-foreground">
               Nombre completo
