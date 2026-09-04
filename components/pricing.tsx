@@ -30,7 +30,7 @@ const plans: Plan[] = [
     name: "Avanzado",
     price: "$100",
     priceNote: "USD mensual",
-    description: "El comienzo perfecto para vender más en línea.",
+    description: "El comienzo perfecto para vender más en línea. Soporte y actualizaciones: costo adicional.",
     features: [
       "Instalación, configuración y capacitación inicial",
       "Licencia renovable cada 30 días",
@@ -44,7 +44,7 @@ const plans: Plan[] = [
     name: "Elite",
     price: "$200",
     priceNote: "USD anual",
-    description: "Máximo control y personalización.",
+    description: "Máximo control y personalización. Soporte y actualizaciones: costo adicional.",
     features: [
       "Instalación, configuración y capacitación inicial",
       "Puntos de venta ilimitados",

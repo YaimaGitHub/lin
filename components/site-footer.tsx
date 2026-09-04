@@ -28,7 +28,7 @@ export function SiteFooter() {
               alt="Uplink"
               width={260}
               height={70}
-              className="shiny-logo h-12 w-auto md:h-14"
+              className="shiny-logo h-14 w-auto md:h-16"
             />
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-muted-foreground">
               Sistema de punto de venta y gestión moderno para hacer crecer tu negocio.
