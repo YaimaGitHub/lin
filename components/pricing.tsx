@@ -28,7 +28,7 @@ const plans: Plan[] = [
   {
     id: PLAN_IDS.ADVANCED,
     name: "Avanzado",
-    price: "$100",
+    price: "$200",
     priceNote: "USD mensual",
     description: "El comienzo perfecto para vender más en línea. Soporte y actualizaciones: costo adicional.",
     features: [
@@ -43,7 +43,7 @@ const plans: Plan[] = [
   {
     id: PLAN_IDS.ELITE,
     name: "Elite",
-    price: "$200",
+    price: "$300",
     priceNote: "USD anual",
     description: "Máximo control y personalización. Soporte y actualizaciones: costo adicional.",
     features: [
@@ -58,7 +58,7 @@ const plans: Plan[] = [
   {
     id: PLAN_IDS.PREMIUM,
     name: "Premium",
-    price: "$250",
+    price: "$350",
     priceNote: "USD anual",
     description: "Automatiza y optimiza tu negocio.",
     features: [
